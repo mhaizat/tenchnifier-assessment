@@ -37,8 +37,7 @@ public class GameSceneManager : MonoBehaviour
 
     [SerializeField] private Canvas canvas;
 
-    //! REMINDER: value for test purpose only
-    public float timer;
+    private float timer = 60.0f;
     private float multiplierTimer;
     float countdownTime = 3.0f;
     
@@ -123,7 +122,6 @@ public class GameSceneManager : MonoBehaviour
 
     void ReturnToMenu()
     {
-        //! REMINDER: check if anything else needs changing
         SceneManager.LoadScene("MenuScene");
     }
 
