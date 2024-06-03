@@ -1,0 +1,20 @@
+{
+    "highScores": [
+        {
+            "playerName": "Player2",
+            "score": 1200
+        },
+        {
+            "playerName": "Player3",
+            "score": 900
+        },
+        {
+            "playerName": "Player1",
+            "score": 200
+        }
+    ],
+    "currentProfile": {
+        "playerName": "aa",
+        "score": 0
+    }
+}
